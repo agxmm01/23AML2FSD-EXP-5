@@ -1,4 +1,4 @@
-# 📦 React Lazy Loading Experiment
+#  React Lazy Loading Experiment
 
 This project demonstrates how to use **React.lazy()** and **Suspense** for code-splitting and lazy loading components in a React application.
 
@@ -6,12 +6,12 @@ It also includes an artificial delay using `setTimeout` to simulate slow network
 
 ---
 
-## 🚀 What This Project Demonstrates
+##  What This Project Demonstrates
 
-- ✅ Code splitting using `React.lazy()`
-- ✅ Fallback UI using `Suspense`
-- ✅ Artificial loading delay simulation
-- ✅ Improved performance using dynamic imports
+- Code splitting using `React.lazy()`
+- Fallback UI using `Suspense`
+-  Artificial loading delay simulation
+- Improved performance using dynamic imports
 
 ---
 
@@ -41,9 +41,9 @@ src/
 ```
 ---
 
-## 🧠 Concepts Used
+##  Concepts Used
 
-### 🔹 React.lazy()
+###  React.lazy()
 
 `React.lazy()` allows you to dynamically import a component only when it is needed.
 
@@ -55,7 +55,7 @@ This reduces the initial bundle size and improves performance.
 
 ---
 
-### 🔹 Suspense
+###  Suspense
 
 `Suspense` allows you to show fallback UI while the lazy-loaded component is being loaded.
 
@@ -82,7 +82,7 @@ This reduces the initial bundle size and improves performance.
 ![Home-Page](./screenshots/Home-Page.png)
 
 
-## 🏃‍♂️ How to Run the Project
+##  How to Run the Project
 
 1. Install dependencies:
    ```bash
@@ -105,7 +105,7 @@ This reduces the initial bundle size and improves performance.
 
 ---
 
-## 🎯 Why Use React.lazy?
+## Why Use React.lazy?
 
 - Reduces initial bundle size
 - Improves performance
@@ -113,28 +113,3 @@ This reduces the initial bundle size and improves performance.
 - Better user experience for large applications
 
 ---
-
-## 📌 When to Use Lazy Loading
-
-- Large dashboards
-- Admin panels
-- Route-based components
-- Heavy third-party libraries
-- Multi-page applications
-
----
-
-## 🔥 Future Improvements
-
-- Add a spinner loader
-- Add skeleton UI
-- Add route-based lazy loading with React Router
-- Remove artificial delay for production
-
----
-
-## 🏁 Conclusion
-
-This experiment demonstrates how **React lazy loading works internally** and how `Suspense` handles asynchronous component rendering.
-
-It’s a foundational concept for optimizing large React applications.
